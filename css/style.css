@@ -10,15 +10,21 @@ body {
     font-family: 'Helvetica', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a {
+    color: #cba961;
+    text-decoration: none;
+}
+
 header {
     background-image: url(../img/coffeebeans-bg.jpg);
     background-position: right;
 }
 
-header img{
+header img {
     width: 300px;
     padding: 30px;
 }
+
 
 /* ----- Navigeringsdesign ----- */
 
@@ -28,7 +34,7 @@ header img{
     height: 45px;
     width: 45px;
     cursor: pointer;
-    margin: 15px;
+    margin: 10px;
 }
 
 #navcheckbox {
@@ -87,13 +93,18 @@ main {
 
 #linkBestall {
     background-image: url(../img/bestall-i-butik-500px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     text-shadow: #000000 1px 1px 10px;
     padding: 40px;
 }
 
 #linkHitta {
     background-image: url(../img/hitta-hit-500px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     text-shadow: #000000 1px 1px 10px;
+
     padding: 40px;
 }
 
@@ -104,6 +115,8 @@ main {
 
 #temabild {
     background-image: url(../img/bestall-i-butik-500px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 80px;
 }
 
