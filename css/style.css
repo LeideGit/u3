@@ -26,6 +26,7 @@ header img {
 }
 
 
+
 /* ----- Navigeringsdesign ----- */
 
 #navicon {
@@ -92,20 +93,23 @@ main {
 }
 
 #linkBestall {
-    background-image: url(../img/bestall-i-butik-500px.jpg);
+    background-image: url(../img/bestall-i-butik-1200px.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
     text-shadow: #000000 1px 1px 10px;
     padding: 40px;
+    color: #FFF;
 }
 
 #linkHitta {
-    background-image: url(../img/hitta-hit-500px.jpg);
+    background-image: url(../img/hitta-hit-1200px.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
     text-shadow: #000000 1px 1px 10px;
-
     padding: 40px;
+    color: #FFF;
 }
 
 #oppettider {
@@ -113,11 +117,57 @@ main {
     padding: 40px;
 }
 
-#temabild {
-    background-image: url(../img/bestall-i-butik-500px.jpg);
+#temabild img {
+    position: relative;
+    width: 100%;
+}
+
+#kontakt {
+    padding: 40px;
+}
+
+#kontakt h3 {
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+#omOssHero {
+    background-image: url(../img/hitta-hit-1200px.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 80px;
+    background-size: 100%;
+    text-shadow: #000000 1px 1px 10px;
+    padding: 40px;
+}
+
+#omOss {
+
+}
+
+#menyHero {
+    background-image: url(../img/hitta-hit-1200px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-shadow: #000000 1px 1px 10px;
+    padding: 40px;
+}
+
+#meny {
+
+}
+
+#kontaktHero {
+    background-image: url(../img/hitta-hit-1200px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-shadow: #000000 1px 1px 10px;
+    padding: 40px;
+}
+
+#kontakt {
+
 }
 
 /* ----- Sidfoten ----- */
@@ -126,3 +176,10 @@ footer {
     padding: 40px;
     background-color: #584f46;
 }
+
+
+/* ----- Surfplatta ----- */
+
+@media screen and (min-width: 2000px) {
+    body {
+    }
