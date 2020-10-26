@@ -7,6 +7,7 @@ body {
     padding: 0px;
     margin: 0px;
     color: #cba961;
+    font-family: 'Helvetica', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -74,4 +75,41 @@ nav a:hover, nav a:active {
 
 .thisPage {
     background-color: #1e39d0 !important;
+}
+
+
+/* ----- Main-innehållet ----- */
+
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+#linkBestall {
+    background-image: url(../img/bestall-i-butik-500px.jpg);
+    text-shadow: #000000 1px 1px 10px;
+    padding: 40px;
+}
+
+#linkHitta {
+    background-image: url(../img/hitta-hit-500px.jpg);
+    text-shadow: #000000 1px 1px 10px;
+    padding: 40px;
+}
+
+#oppettider {
+    text-shadow: #000000 1px 1px 10px;
+    padding: 40px;
+}
+
+#temabild {
+    background-image: url(../img/bestall-i-butik-500px.jpg);
+    padding: 80px;
+}
+
+/* ----- Sidfoten ----- */
+
+footer {
+    padding: 40px;
+    background-color: #584f46;
 }
