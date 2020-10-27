@@ -93,10 +93,11 @@ nav a:hover, nav a:active {
     list-style: none;
     padding: 20px;
     margin: 0px;
+    color: #cba961;
 }
 
 #omOssMenu a:link, #omOssMenu a:visited {
-    color: #cba961;
+    color: darkgrey;
     transition: 500ms;
 }
 
@@ -166,6 +167,12 @@ font-weight: lighter;
 color: #FFF;
 }
 
+#omOss img {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
 #meny {
     padding: 40px;
 }
@@ -190,12 +197,36 @@ aside {
     margin-bottom: -3px;
 }
 
+/* ----- Meny-formuläret ----- */
+
+#menyForm {
+    padding: 20px;
+    display: block;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#menyForm fieldset {
+    background-color: #584f46;
+    margin-bottom: 20px;
+}
+
+#menyForm legend {
+    font-size: x-large;
+}
+
+#menyForm label {
+    display: block;
+}
+
 /* ----- Sidfoten ----- */
 
 footer {
     grid-area: footer;
     padding: 40px;
     background-color: #584f46;
+    font-size: small;
 }
 
 footer img {
@@ -204,7 +235,7 @@ footer img {
 
 /* ----- Desktop ----- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
 body {
     display: grid;
     gap: 0px;

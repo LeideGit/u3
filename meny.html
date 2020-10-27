@@ -28,8 +28,81 @@
 </div>
 
 <main>
-<div id="meny">
-    Formulär
+    <div id="meny">
+    <h2>Beställ för en person i taget</h2>
+    <p>
+        Använd formuläret för att beställa till dig själv. Är ni flera vid bordet så kan ni antingen beställa från er respektive mobil/dator eller beställa flera gånger.<br><br>
+        Eftersom vi tänker på klimatet så håller vi oss till att beställa en av varje sort. I varje fall per beställning =)
+    </p>
+</div>
+        <form id=menyForm>
+        <fieldset id="dryck">
+        <legend>Dryck</legend>
+        <div>
+            <label>
+                <input type="checkbox" value="kaffe"> Bryggkaffe Blond Brew
+            </label>
+            <label>
+                <input type="checkbox" value="te"> Te Roibos
+            </label>
+            <label>
+                <input type="checkbox" value="must"> Äppelmust
+            </label>
+        </div>
+    </fieldset>
+    
+    <fieldset id="kaka">
+        <legend>Kakor & bullar</legend>
+        <div>
+            <label>
+                <input type="checkbox" value="morotskaka"> Morotskaka
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" value="Hallongrotta"> Hallongrotta
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" value="kanelbulle"> Kanelbulle
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" value="dammsugare"> Dammsugare
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset id="bord">
+        <legend>Bordsnummer</legend>
+        <div>
+            <label>
+                <select name="bord"> 
+                    <option value="1"> Bord 1
+                    <option value="2"> Bord 2
+                    <option value="3"> Bord 3
+                    <option value="4"> Bord 4
+                    <option value="5"> Bord 5
+                    <option value="6"> Bord 6
+                </select>
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset id="meddelande">
+        <legend>Ev meddelande</legend>
+        <div>
+            <label for="message">Vill du hälsa bageriet något?</label>
+            <input type="text" id="message" name="message"
+        </div>
+    </fieldset>
+    <div id="send">
+    <input type="submit" value="Beställ fika">
+</div>
+
+</form>
 </div>
 </main>
 
@@ -47,11 +120,11 @@
     <picture>
         <source media="(max-width: 500px)" srcset="img/coffee-tema-bild_500px.jpg">
         <source media="(max-width: 800px)" srcset="img/coffee-tema-bild_800px.jpg">
-        <img src="img/coffee-tema-bild_1200px.jpg" alt="Välkommen till vårt fik!">
-    </picture> 
+            <img src="img/coffee-tema-bild_1200px.jpg" alt="Välkommen till vårt fik!">
+        </picture> 
 </div>
 
-<a href="/#">    
+<a href="/kontakt.html">    
     <div id="linkHitta">
         <h1>Hitta hit</h1>
     </div>
@@ -59,7 +132,7 @@
 </aside>
 
 <footer>
-    fb insta
+    <a href="http://www.facebook.com" target="_blank"><img src="img/fb.png" alt="Följ oss på Facebook"></a> <a href="https://www.instagram.com" target="_blank"><img src="img/insta.png" alt="Följ oss på Instagram"></a>
     <br><br>
     Byggd av Johan Leidefors, Medieteknik U3, LP1, 2020
 </footer>
