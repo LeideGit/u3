@@ -22,25 +22,18 @@
             <li><a href="/om-oss.html">Om oss</a></li>
         </ul>
     </nav>
-<main>
 
-<div id="kontaktHero">
+<div id="hero">
     <h1>Kontakt</h1>
 </div>
 
+<main>
 <div id="karta">
  <!--Karta embeddad direkt från https://www.embedgooglemap.net, men jag har ändrat måtten manuellt-->
  <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=J%C3%B6nk%C3%B6ping&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}</style></div>
 </div>
 
-<div id="kontakt">
-    <h2>Öppettider</h2>
-    <p>
-        Mån-fre 09-19<br>
-        Lör 10-17<br>
-        Sön Stängt<br>  
-    </p>
-
+<div id="mainContent">
     <h3>Telefon</h3>
     <p>
         036-12 34 56<br>
@@ -57,12 +50,32 @@
         553 20 Jönköping<br>
     </p>
 </div>
-
-<div id="temabild">
-</div>
-
-
 </main>
+
+<aside>
+    <div id="oppettider">
+        <h2>Öppettider</h2>
+        <p>
+            Mån-fre 09-19<br>
+            Lör 10-17<br>
+            Sön Stängt<br>  
+        </p>
+    </div>
+    
+    <div id="temabild">
+        <picture>
+            <source media="(max-width: 500px)" srcset="img/coffee-tema-bild_500px.jpg">
+            <source media="(max-width: 800px)" srcset="img/coffee-tema-bild_800px.jpg">
+            <img src="img/coffee-tema-bild_1200px.jpg" alt="Välkommen till vårt fik!">
+        </picture> 
+    </div>
+    
+    <a href="/meny.html">    
+        <div id="linkBestall">
+            <h1>Se vår meny</h1>
+        </div></a>
+    </aside>
+
 <footer>
     fb insta
     <br><br>
