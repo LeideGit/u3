@@ -70,12 +70,13 @@ nav ul {
 nav a {
     text-decoration: none;
     display: block;
-    padding: 0.4rem;
+    padding: 1.4rem;
 }
 
 nav a:link, nav a:visited {
     background-color: #cba961;
     color: #FFFFFF;
+    transition: 500ms;
 }
 
 nav a:hover, nav a:active {
@@ -83,6 +84,25 @@ nav a:hover, nav a:active {
     color: #cba961;
 }
 
+#omOssMenu {
+    grid-area: omOssMeny;
+    background-color: #383633;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+#omOssMenu a:link, #omOssMenu a:visited {
+    color: #cba961;
+    transition: 500ms;
+}
+
+#omOssMenu a:hover, #omOssMenu a:active {
+    color: #fff;
+}
 
 /* ----- Main-innehållet ----- */
 
@@ -90,6 +110,8 @@ main {
     grid-area: main;
     margin: 0px;
     padding: 0px;
+    background-color: #1f1c1a;
+
 }
 
 #linkBestall {
@@ -112,8 +134,10 @@ main {
     color: #FFF;
 }
 
+
 #oppettider {
     padding: 40px;
+    background-color: #383633;
 }
 
 #temabild img {
@@ -121,35 +145,40 @@ main {
     width: 100%;
 }
 
-#mainContent {
-    padding: 40px;
-}
-
 #kontakt h3 {
     margin-top: 30px;
     margin-bottom: -10px;
 }
 
-#omOssHero {
-    background-image: url(../img/hitta-hit-1200px.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    text-shadow: #000000 1px 1px 10px;
+#mainContent {
     padding: 40px;
 }
 
 #omOss {
+    text-align: left;
+    padding: 40px;
+}
 
+#omOss p b {
+font-size: 1.2rem;
+font-style: italic;
+font-weight: lighter;
+color: #FFF;
+}
+
+#meny {
+    padding: 40px;
 }
 
 #hero {
-    background-image: url(../img/hitta-hit-1200px.jpg);
+    grid-area: hero;
+    background-image: url(../img/hero-bg_1200px.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    text-shadow: #000000 1px 1px 10px;
+    text-shadow: #000000 1px 1px 20px;
     padding: 40px;
+    color: #fff;
 }
 
 aside {
@@ -157,8 +186,8 @@ aside {
     margin: 0px;
 }
 
-#hero {
-    grid-area: hero;
+#temabild {
+    margin-bottom: -3px;
 }
 
 /* ----- Sidfoten ----- */
@@ -184,12 +213,32 @@ body {
     grid-template-areas:
         "header header header header"
         "nav  nav  nav  nav"
+        ".  omOssMeny   omOssMeny   ."
         ". hero   hero   ."
         ". main   aside  ."
         ". main   aside  ."
         "footer footer footer footer"
         ;
 }
+
+#linkBestall {
+    opacity: 0.6;
+}
+
+#linkHitta {
+    opacity: 0.6;
+}
+
+#linkBestall:hover{
+    opacity: 1;
+    transition: 700ms;
+}
+
+#linkHitta:hover {
+    opacity: 1;
+    transition: 700ms;
+}
+
 }
 
 /* ----- Padda ----- */
