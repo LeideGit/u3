@@ -86,19 +86,20 @@ nav a:hover, nav a:active {
 
 #omOssMenu {
     grid-area: omOssMeny;
-    background-color: #383633;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 40px;
     list-style: none;
-    padding: 20px;
     margin: 0px;
     color: #cba961;
 }
 
-#omOssMenu a:link, #omOssMenu a:visited {
+#omOssMenu a:link, #omOssMenu a:visited, #omOssMenu li {
     color: darkgrey;
     transition: 500ms;
+    display: inline-block;
+    background-color: #53504c;
+    padding: 10px;
 }
 
 #omOssMenu a:hover, #omOssMenu a:active {
