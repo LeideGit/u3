@@ -87,11 +87,12 @@ nav a:hover, nav a:active {
 #omOssMenu {
     grid-area: omOssMeny;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 10px;
     list-style: none;
-    color: #cba961;
     margin: 10px 0px 10px 0px;
+    padding: 0px;
 }
 
 #omOssMenu a:link, #omOssMenu a:visited {
