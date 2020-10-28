@@ -91,14 +91,13 @@ nav a:hover, nav a:active {
     justify-content: center;
     gap: 10px;
     list-style: none;
-    margin: 10px 0px 10px 0px;
+    margin: 15px 0px 15px 0px;
     padding: 0px;
 }
 
 #omOssMenu a:link, #omOssMenu a:visited {
-    color: darkgrey;
+    color: #cba961;
     transition: 500ms;
-    background-color: #6d502b;
     padding: 10px;
 }
 
