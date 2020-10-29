@@ -159,6 +159,10 @@ main {
     width: 100%;
 }
 
+#mainContent a {
+    color: #fff;
+}
+
 #omOss {
     text-align: left;
     padding: 40px;
