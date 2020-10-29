@@ -155,6 +155,10 @@ main {
     padding: 40px;
 }
 
+#mainContent img {
+    width: 100%;
+}
+
 #omOss {
     text-align: left;
     padding: 40px;
